@@ -1,0 +1,72 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 0 20px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  height: 64px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 20px;
+}
+
+.search-and-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.auth-button {
+  margin-left: 10px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  border: none;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: linear-gradient(45deg, #5f27cd, #ff6b81);
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.logo-icon {
+  font-size: 22px;
+  border: #fff;
+}
+
+.star-logo-bg {
+  background: linear-gradient(45deg, #5f27cd, #ff6b81);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: normal;
+}
+
+.rate-text {
+  color: #000000;
+  font-weight: bold;
+}
+.login{
+border: none;
+background: transparent;
+}

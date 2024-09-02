@@ -1,0 +1,153 @@
+.company-list {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.company-logo .ant-avatar {
+  border-radius: 4px;
+  padding: 2px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  display: flex;
+}
+.company-logo .ant-avatar img {
+  object-fit: cover;
+  filter: grayscale(100%) brightness(2);
+}
+.company-logo .avatar-bg-color-1 {
+  background: #0c1236;
+}
+
+.company-logo .avatar-bg-color-2 {
+  background: #298000;
+}
+
+.company-logo .avatar-bg-color-3 {
+  background: #ff7b01;
+}
+
+.company-logo .avatar-bg-color-4 {
+  background: #0020dd;
+}
+.company-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 4px;
+  height: 100px;
+  margin: 0 !important;
+}
+.company-card-width {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  padding: 8px;
+  margin: 0 !important;
+}
+
+.company-logo {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.company-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+.company-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.company-founded {
+  font-size: 12px;
+  color: #767676;
+}
+
+.company-location {
+  display: flex;
+  align-items: center;
+  color: #767676;
+  font-size: 10px;
+}
+
+.location-icon {
+  margin-right: 2px;
+}
+
+.company-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-reviews {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.rating {
+  margin-left: 8px;
+}
+
+.review-card {
+  margin: 16px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 4px;
+}
+.review-header .ant-avatar {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 2px;
+}
+.review-content {
+  margin-left: 16px;
+  flex: 1;
+}
+
+.review-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.review-username {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.review-rating {
+  margin-left: auto;
+}
+
+.review-date {
+  color: #999;
+  margin: 4px 0;
+}
+
+.review-text {
+  font-size: 0.9em;
+  color: #333;
+}
+.detail-review,
+.detail-review:hover {
+  font-weight: 400;
+  background: #303030 !important;
+}

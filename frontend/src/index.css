@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.custom-modal {
+  max-width: 482px;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  position: relative;
+  padding-top: 40px; /* Adjust the padding to fit the corner image */
+}
+
+.modal-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+  margin-left: 0; /* Align image to the leftmost side */
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  text-align: center;
+  flex: 1;
+  z-index: 2; /* Ensure the title is on top of the circle */
+}
+
+.ant-modal-body {
+  padding-top: 0;
+}
+
+.ant-form-item-label > label {
+  color: #9e9c9c !important; /* Adjust this to match the color in your image */
+}
+
+.common-button,
+.common-button:hover {
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    #5f27cd,
+    #ff6b81
+  ) !important; /* Maintain the same background on hover */
+}
+.corner-container {
+  position: absolute;
+  top: -40px; /* Adjust the position to align with the corner */
+  left: -40px; /* Adjust the position to align with the corner */
+  width: 120px;
+  height: 120px;
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-1 {
+  width: 97px;
+  height: 97px;
+  background: linear-gradient(331deg, #cfc5c5cf, #aaaaaa);
+  top: -32px;
+  left: 11px;
+  clip-path: circle(50%);
+}
+
+.circle-2 {
+  width: 73px;
+  height: 73px;
+  background: linear-gradient(45deg, #ff6b81, #5f27cd);
+  top: 16px;
+  left: -3px;
+  clip-path: circle(50%);
+}
+.ant-card-body {
+  padding: 0 !important;
+}
+.bold-label {
+  color: black;
+  font-weight: bold;
+}
+.align-btn {
+  display: block;
+  margin: 0 auto;
+}

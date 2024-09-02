@@ -1,0 +1,56 @@
+.dashboard-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.add-company-container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-top: 8px !important;
+}
+
+.sort-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sort-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  flex: 1;
+  max-width: 500px;
+}
+
+.find-company-button {
+  margin-left: 8px;
+}
+
+.sort-select {
+  width: 100%;
+  max-width: 400px !important;
+  margin-top: 8px;
+}
+
+.label {
+  margin-bottom: 4px;
+}
+.ant-select {
+  width: 50%;
+}
+.add-company-button {
+  margin-top: 8px;
+}
